@@ -1,0 +1,113 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: palevioletred;
+    padding: 5em;
+    background:rgb(54, 49, 88);
+}
+
+.title
+{
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border-bottom: 5px palevioletred solid;
+}
+.container
+{
+    width: 60%;
+    margin: auto;
+}
+
+.navbar
+{
+    float: right;
+}
+.navbar ul
+{
+    padding-right: 20px;
+    padding-bottom: 30px; 
+    list-style: none;
+    float: right;
+}
+
+.navbar li
+{
+    display: inline;
+}
+
+.navbar a
+{
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 1em; 
+    border-bottom: dashed currentColor 2px;
+}
+
+.navbar a:hover
+{
+    color: red;
+}
+
+.block-1
+{
+    margin-top: 5rem;
+}
+
+#portfolio
+{
+    text-align: center;
+}
+
+#portfolio a
+{
+    text-align: center;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+#portfolio a:hover
+{
+    color: white;
+}
+
+@media screen and (max-width: 840px)
+{
+    .navbar
+    {
+        width: 60%;
+        margin-top: 2rem;
+        float: right;
+        text-align: right;
+        padding-left: 0px;
+    }
+    
+    .navbar li
+    {
+        margin-top:5rem;
+        margin-bottom: 5rem;
+        display: inline;
+    }
+
+    .navbar a
+    {
+        border-bottom: none;
+
+    } 
+
+
+    .container
+    {
+        width: 100%;
+    }
+
+    #portfolio
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
